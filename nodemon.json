@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ignore": ["*.test.js", "*.json", "node_modules/*", ".gitignore"],
+  "watch": [
+    "server.js",
+    "validation.js",
+    "controllers/*",
+    "models/*",
+    "routes/*",
+    "validations/*",
+    "middlewares/*"
+  ]
+}

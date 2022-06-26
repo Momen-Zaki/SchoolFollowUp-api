@@ -1,0 +1,22 @@
+admin
+------
+1- edit profile, report and suggest
+2- add, edit, delete student, teacher, subteacher, EM and classroom (basic)
+
+
+app.post(staffmembers/){
+  fname,
+  lname,
+  phone,
+  role = staffmember,
+  email,
+  pass
+  create_user(data1)
+  user._id,
+  sub_id,
+  role,
+  status
+  create_staffmember(data2)
+}
+
+app.post(classrooms/)
